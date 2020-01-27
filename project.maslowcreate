@@ -89,6 +89,10 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 4",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 1",
                             "ioValue": 10
                         },
@@ -98,10 +102,6 @@
                         },
                         {
                             "name": "3D shape 3",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 4",
                             "ioValue": 10
                         }
                     ],
@@ -202,7 +202,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 10
+                            "ioValue": 6
                         }
                     ]
                 },
@@ -249,7 +249,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 4
+                            "ioValue": 7
                         }
                     ]
                 },
@@ -262,7 +262,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 6
                         }
                     ]
                 },
