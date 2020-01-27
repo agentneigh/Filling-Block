@@ -2,6 +2,118 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "Outline",
+            "x": 134,
+            "y": 101,
+            "uniqueID": 724679,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Cut Away",
+            "x": 134,
+            "y": 199,
+            "uniqueID": 897117,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 192,
+                    "y": 164,
+                    "uniqueID": 356808,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 100
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 535,
+                    "y": 219,
+                    "uniqueID": 867965,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 50
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 810,
+                    "y": 89,
+                    "uniqueID": 560689,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 356808,
+                    "ap2ID": 867965
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 867965,
+                    "ap2ID": 560689
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 560689
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Filling Block",
             "x": 0,
             "y": 0,
@@ -9,6 +121,22 @@
             "ioValues": [],
             "topLevel": true,
             "allAtoms": [
+                {
+                    "atomType": "Molecule",
+                    "name": "Outline",
+                    "x": 134,
+                    "y": 101,
+                    "uniqueID": 724679,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Cut Away",
+                    "x": 134,
+                    "y": 199,
+                    "uniqueID": 897117,
+                    "ioValues": []
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
