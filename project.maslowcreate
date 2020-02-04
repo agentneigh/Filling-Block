@@ -206,7 +206,12 @@
             "x": 0,
             "y": 0,
             "uniqueID": 878958,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Thickness",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": true,
             "allAtoms": [
                 {
@@ -226,6 +231,14 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Thickness",
+                    "x": 30,
+                    "y": 257,
+                    "uniqueID": 251383,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Difference",
                     "name": "Difference",
                     "x": 414,
@@ -242,7 +255,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 14.5
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -268,6 +281,13 @@
                     "ap2Primary": false,
                     "ap1ID": 897117,
                     "ap2ID": 106029
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap2Primary": false,
+                    "ap1ID": 251383,
+                    "ap2ID": 824610
                 },
                 {
                     "ap1Name": "geometry",
