@@ -38,8 +38,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 320,
-                    "y": 148,
+                    "x": 315,
+                    "y": 140,
                     "uniqueID": 961915,
                     "ioValues": [
                         {
@@ -108,6 +108,110 @@
                     "closedSelection": 0
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Cylinder",
+                    "x": 601,
+                    "y": 223,
+                    "uniqueID": 615467,
+                    "projectID": "240615474",
+                    "ioValues": [
+                        {
+                            "name": "Width",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 743,
+                    "y": 149,
+                    "uniqueID": 220860,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 80
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 752,
+                    "y": 241,
+                    "uniqueID": 377020,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 80
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": -5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Cylinder",
+                    "x": 861,
+                    "y": 74,
+                    "uniqueID": 237618,
+                    "projectID": "240615474",
+                    "ioValues": [
+                        {
+                            "name": "Width",
+                            "ioValue": 105
+                        },
+                        {
+                            "name": "Height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "ShrinkWrap",
+                    "name": "Shrink Wrap",
+                    "x": 1023,
+                    "y": 179,
+                    "uniqueID": 983883,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
+                        }
+                    ],
+                    "closedSelection": 0
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -152,10 +256,33 @@
                     "ap2ID": 554055
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 615467,
+                    "ap2ID": 220860
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 615467,
+                    "ap2ID": 377020
+                },
+                null,
+                {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
+                    "ap2Name": "3D shape 2",
                     "ap2Primary": false,
-                    "ap1ID": 554055
+                    "ap1ID": 377020,
+                    "ap2ID": 983883
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 237618,
+                    "ap2ID": 983883
                 }
             ],
             "fileTypeVersion": 1
@@ -249,8 +376,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 688,
-                    "y": 134,
+                    "x": 762,
+                    "y": 137,
                     "uniqueID": 824610,
                     "ioValues": [
                         {

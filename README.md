@@ -4,12 +4,3 @@
 
 ![](/project.svg)
 
-## Filling Block
-
-
-## Outline
-
-
-## Cut Away
-
-
