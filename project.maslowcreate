@@ -291,8 +291,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.5080527086383602,
-                    "y": 0.6206896551724138,
+                    "x": 0.513909224011713,
+                    "y": 0.6283524904214559,
                     "uniqueID": 939601,
                     "ioValues": [
                         {
@@ -308,13 +308,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.34773060029282576,
-                    "y": 0.7969348659003832,
+                    "x": 0.3440702781844802,
+                    "y": 0.8045977011494253,
                     "uniqueID": 729154,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -5
+                            "ioValue": 0
                         },
                         {
                             "name": "yDist",
