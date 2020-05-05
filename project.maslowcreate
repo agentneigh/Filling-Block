@@ -480,7 +480,16 @@
             "x": 0.17496339677891654,
             "y": 0.32950191570881227,
             "uniqueID": 106029,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "geometry2",
+                    "ioValue": ""
+                },
+                {
+                    "name": "geometry1",
+                    "ioValue": ""
+                }
+            ]
         },
         {
             "atomType": "Difference",
@@ -701,6 +710,10 @@
             "y": 0.475095785440613,
             "uniqueID": 503320,
             "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
                 {
                     "name": "height",
                     "ioValue": 10
